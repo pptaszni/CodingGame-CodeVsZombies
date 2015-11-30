@@ -1,6 +1,8 @@
 # CodingGame-CodeVsZombies
 Code from 28.11.2015 24h Coding Game contest "Code vs Zombies"
 
+See my profile: https://www.codingame.com/profile/634e6d70e7364d277491ded97a8e2f04362934
+
 This code was ranked 530/3963 in the official reports. Proposed strategy is meant to be universal rather than based on specific test cases. The main algorithm is a mixture of PotentialFieldMethod, CenterOfMass formulas and a few heuristic factors.
 
 This strategy favored human lives over zombie kill combos, which was good for most cases. However, in few tests a huge score could be gained by sacrificing all but one human in exchange for zombie multikill. This is well shown in the chart comparison of Fibonacci sequence with x^2 function:
